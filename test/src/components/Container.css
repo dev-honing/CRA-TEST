@@ -18,16 +18,24 @@ h1 {
   margin-bottom: 1.5rem;
   color: #099909;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: xx-large;
 }
 
 li {
-  list-style: inside;
+  list-style: none;
+  text-align: center;
+  border: 1px solid #ffa500;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: oblique;
+  font-style: oblique;;
+  font-size: large;
+  color: #a00000;
   margin: 1rem;
 }
 
   span {
     margin: 7rem;
     border: 5px solid #999;
+    width: auto;
+    height: auto;
   }
