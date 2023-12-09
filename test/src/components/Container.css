@@ -1,0 +1,16 @@
+/* src/components/Container.css */
+
+.Container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+li {
+  list-style: inside;
+  font-style: oblique;
+  margin: 1rem;
+}
