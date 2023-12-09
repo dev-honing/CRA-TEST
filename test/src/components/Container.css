@@ -1,7 +1,9 @@
 /* src/components/Container.css */
 
 .Container {
-  width: 80%;
+  width: 90vw;
+  height: 50vh;
+  display: flex;
   max-width: 1200px;
   margin: 0 auto;
   background-color: #fff;
@@ -9,8 +11,23 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
+
+
+h1 {
+  margin: 1rem;
+  margin-bottom: 1.5rem;
+  color: #099909;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 li {
   list-style: inside;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
   margin: 1rem;
 }
+
+  span {
+    margin: 7rem;
+    border: 5px solid #999;
+  }
